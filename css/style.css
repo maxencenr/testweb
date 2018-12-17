@@ -9,10 +9,10 @@ body {
 /* Footer */
 
 #footer {
-  background-color: #222;
+  background-color: #132F34;
   color: #aaaaaa;
-  padding-top: 3em;
-  padding-bottom: 3em;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 #footer a {
@@ -35,9 +35,9 @@ body {
 
 .wrapper {
   
-  height: 650px;
+  height: 640px;
   background-size: cover;
-  padding-top: 150px;
+  padding-top: 90px;
   text-align: center;
   color: white;
 }
@@ -46,12 +46,9 @@ body {
 color: #132F34;
   font-size: 22px;
   font-weight: normal;
+  padding-top: 45px;
 }
 
-
-p {
-  font-size: 12px;
-}
 
 /* Vertical spacer to help content breathe */
 
