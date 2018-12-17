@@ -43,8 +43,8 @@ body {
 }
 
 .lead h1 {
+color: #132F34;
   font-size: 22px;
-  text-shadow: 0 0 20px rgba(0, 0, 0, .8);
   font-weight: normal;
 }
 
