@@ -1,7 +1,7 @@
  /* General classes for page */
 
 body {
-  background-image: url("../images/grid.jpg");
+  background-color: #D0B194;
   font-family: 'Open Sans';
 }
 
@@ -34,7 +34,7 @@ body {
 /* Lead with big image */
 
 .wrapper {
-  background-image: url('../images/background/background.jpg');
+  
   height: 650px;
   background-size: cover;
   padding-top: 150px;
@@ -48,15 +48,6 @@ body {
   font-weight: normal;
 }
 
-.lead h2 {
-  background: rgba(0, 0, 0, .4);
-  display: inline-block;
-  padding: 0.2em;
-  font-size: 18px;
-  font-weight: 300;
-  letter-spacing: 2px;
-  margin-bottom: 2em;
-}
 
 p {
   font-size: 12px;
