@@ -1,0 +1,215 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, 
+html * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat';
+	color: #132F34;
+}
+
+header {
+	padding: 22px;
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+footer {
+	padding: 20px 30px;
+	background-color: #dbecf1;
+}
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+	background: #61BB99;
+}
+
+.style-logo {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 50px;
+}
+
+.style-nav ul {
+	list-style-type: none;
+	
+}
+
+.style-nav ul li a {
+	text-decoration: none;
+	color: #2F322A;
+	text-align: center;
+	display: block;
+	text-transform: uppercase;
+	padding: 8px;
+}
+
+.hero {
+	background-image: url(images/Bouchon.jpg);
+	background-size: cover;
+	padding: 70px 20px 50px 20px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+h1 {
+	font-size: 70px;
+	text-transform: uppercase;
+	font-weight: 300;
+	margin-bottom: 40px;
+}
+
+h2 {
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 200;
+	margin-bottom: 23px;
+}
+
+h3 {
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 200;
+	margin-bottom: 120px;
+}
+
+h4 {
+	font-size: 16px;
+	font-weight: 200;
+	margin-bottom: 35px;
+}
+
+p {
+	font-family: "Montserrat";
+	font-size: 16px;
+	font-weight: 300;
+	text-align: justify;
+	margin-bottom: 35px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.button {
+	border: 2px #FFFFFF solid;
+	padding: 8px 30px;
+	border-radius: 30px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.info-box-tan {
+	background-color: #b9a88e;
+	color: #FFFFFF;
+	padding: 50px 20px 60px;
+	text-align: center;
+}
+
+.info-box-dark {
+	background-color: #132F34;
+	color: red;
+	padding: 50px 20px 60px;
+	text-align: center;
+	
+}
+.colorwhite{
+	color:#D0B194;
+}
+
+.colorblack{
+	color:#132F34;
+}
+
+.footer-text {
+	font-size: 13px;
+	margin-bottom: 20px;
+}
+
+.col {
+	width: 100%;
+	padding: 0px;
+}
+
+.row:before, .row:after {
+	content: "";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}
+.map{
+	color: #FFFFFF;
+	padding: 50px 20px 60px;
+	text-align: center;
+}
+
+/*Tablet View*/
+
+@media (min-width: 768px){
+	
+	body {
+		max-width: 700px;
+	}
+	
+	.style-nav ul li {
+		display: inline-block;
+	}
+	
+	.style-nav ul {
+		text-align: center;
+	}
+	
+	h1 {
+		font-size: 70px;
+		font-weight: 300;
+		margin-bottom: 70px;
+	}
+	
+	h4 {
+		font-size: 30px;
+		margin-bottom: 40px;
+	}
+	
+	.col-md-one-half {
+		width: 100%;
+	}
+	
+	.col {
+		float: left;
+		padding: 0px 0px 0px;
+	}
+}
+
+/*Desktop View*/
+
+@media (min-width: 1024px){
+	
+	body {
+		max-width: 1200px;
+	}
+	
+	.style-logo {
+		float: left;
+	}
+	
+	.style-nav {
+		float: right;
+	}
+	
+	.col-lg-one-fourth {
+		width: 100%;
+	}
+}
+.container{
+	margin: 0px;
+	padding: 0px;
+}
