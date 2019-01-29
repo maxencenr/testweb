@@ -54,11 +54,18 @@ body {
 }
 
 .hero {
-	background-image: url(images/Bouchon.jpg);
+	background-color: #132F34;
 	background-size: cover;
 	padding: 70px 20px 50px 20px;
 	color: #FFFFFF;
 	text-align: center;
+}
+.logob{
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20PX;
+	display: block;
+	width: 100px;
 }
 
 h1 {
