@@ -106,12 +106,20 @@ p {
 }
 
 .button {
+	border: 2px #132F34 solid;
+	padding: 8px 30px;
+	border-radius: 30px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.button2 {
 	border: 2px #FFFFFF solid;
 	padding: 8px 30px;
 	border-radius: 30px;
 	color: #FFFFFF;
 	text-decoration: none;
 }
+
 
 .info-box-tan {
 	background-color: #b9a88e;
